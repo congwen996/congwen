@@ -1,0 +1,182 @@
+[ 2016-12-08T08:35:00+08:00 ] 127.0.0.1 /myshop/index.php/Home/Mem_Order/Mem_order_list
+ERR: 模板不存在:./Shops/Home/View/Mem_Order/Mem_order_list.html
+
+[ 2016-12-08T08:35:08+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:35:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:35:31+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:35:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:35:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:36:01+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-12-08T08:36:05+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `user_id` = 2 AND `goods_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecm_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecm_goods` WHERE `goods_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `ecm_cart` (`user_id`,`goods_id`,`goods_name`,`price`,`goods_image`) VALUES ('2','24','42°洋河大曲青瓷500ml','62.00','data/files/store_2/goods_141/small_201312262115417011.jpg') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-08T08:36:08+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `user_id` = 2 AND `goods_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-08T08:36:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:36:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:36:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/mlselection.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:36:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/mlselection.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:36:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/mlselection.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:36:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:39:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:39:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:39:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:39:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/mlselection.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:39:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:39:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:39:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:39:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:40:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/mlselection.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:11+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:40:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/mlselection.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-08T08:40:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/mlselection.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-08T08:40:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+

@@ -1,0 +1,116 @@
+<div id="site-nav" class="w-full">
+  <div class="shoptop w clearfix">
+    <div class="login_info">
+      您好,<if condition="$UNAME eq ''">游客<else/><{$UNAME}></if>
+      <if condition="$UNAME eq ''"><a href="<{:U('Home/MemLogin/Mem_login')}>">登录</a>
+      <a href="<{:U('Home/MemRegister/Mem_register')}>">注册</a><else/><a href="<{:U('Home/MemLogin/Mem_login/act/loginout')}>">退出</a></if>
+    </div>
+    <ul class="quick-menu">
+      <li class="home">
+        <a href="__MODULE__/Index/index">回到首页</a>
+      </li>
+      <li class="item">
+        <div class="menu mytb">
+          <a class="menu-hd" <if condition="$UNAME eq ''">href="__MODULE__/MemLogin/Mem_login?cateid=<{$cateid}>&goodsid=<{$goodsArr['goods_id']}>"<else/>href="__MODULE__/MemAccount/member_account"</if>>
+            我是买家 <b></b>
+          </a>
+          <div class="menu-bd">
+            <div class="menu-bd-panel">
+              <div>
+                <p>
+                  <a <if condition="$UNAME eq ''">href="__MODULE__/MemLogin/Mem_login?cateid=<{$cateid}>&goodsid=<{$goodsArr['goods_id']}>"<else/>href="__MODULE__/MemOrder/Mem_order_list"</if>>已买到的宝贝</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="service">
+        <a href="#n">帮助中心</a>
+      </li>
+      <li class="item">
+        <div class="menu mini-cart">
+          <a class="ac" href="__MODULE__/Cart/cart_1">
+            <s></s>
+            购物车 <strong><if condition="$cartCount eq ''">0<else/><{$cartCount}></if></strong>
+            件 <b></b>
+          </a>
+          <div class="mini-cart-content menu-bd">
+            <dl class="mini-cart-bd">
+            <if condition="$newcartArr eq ''" >
+            <dt class="mt10 float-left mini-cart-empty">您购物车里还没有任何宝贝</dt>
+            <else/>
+              <dt class="mini-cart-hd">最近加入的宝贝：</dt>
+              <foreach name="newcartArr" item="v">
+              <dd class="mini-cart-each clearfix" id="cart_goods570">
+                <div class="mini-cart-img">
+                  <a href="__MODULE__/Detail/detail/goodsid/<{$v['goods_id']}>" target="_top">
+                    <img alt="<{$v['goods_name']}>" src="__PUBLIC__/images/home/<{$v['goods_image']}>" width="40" height="40"></a>
+                </div>
+                <div class="mini-cart-title">
+                  <a title="<{$v['goods_name']}>" href="__MODULE__/Detail/detail/goodsid/<{$v['goods_id']}>" target="_top"><{$v['goods_name']}></a>
+                </div>
+                <div class="price-admin">
+                  <div class="mini-cart-count"> <strong class="mini-cart-price">￥<{$v['price']}></strong>
+                  </div>
+                  <div class="mini-cart-del">
+                    <a <if condition="$cateid eq ''">href="javascript:delone(<{$v['goods_id']}>);"<else/>href="javascript:delone2(<{$v['goods_id']}>,<{$cateid}>);"</if> onclick="drop_cart_item(2, 570, 22);">删除</a>
+                  </div>
+                </div>
+              </dd>
+              </foreach>
+              </if>
+              <dd class="mini-cart-bt">
+                <a href="__MODULE__/Cart/cart_1">查看我的购物车</a>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </li>
+      <li class="service">
+        <a href="#n">在线客服</a>
+      </li>
+      <li class="item">
+        <div class="menu favorite">
+          <a class="menu-hd" <if condition="$UNAME eq ''">href="__MODULE__/MemLogin/Mem_login?cateid=<{$cateid}>&goodsid=<{$goodsArr['goods_id']}>"<else/>href="__MODULE__/Memfavorite/member_favorite"</if>>
+            收藏夹
+            <b></b>
+          </a>
+          <div class="menu-bd">
+            <div class="menu-bd-panel">
+              <div>
+                <p>
+                  <a <if condition="$UNAME eq ''">href="__MODULE__/MemLogin/Mem_login?cateid=<{$cateid}>&goodsid=<{$goodsArr['goods_id']}>"<else/>href="__MODULE__/Favorite/member_favorite"</if>>收藏的宝贝</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<script>
+function delone(goodsid)
+{
+	if(confirm("确定删除吗?"))
+	{
+		$.post("__MODULE__/Cart/delone",{"goodsid":goodsid},function(a)
+				{
+					alert(a);
+					location.href="__ACTION__?goodsid="+goodsid;
+				},"html");
+	}
+}
+function delone2(goodsid,cateid)
+{
+	if(confirm("确定删除吗?"))
+	{
+		$.post("__MODULE__/Cart/delone",{"goodsid":goodsid},function(a)
+				{
+					alert(a);
+					location.href="__ACTION__?cateid="+cateid+"&goodsid="+goodsid;
+				},"html");
+	}
+}
+</script>

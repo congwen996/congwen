@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>分类添加</title>
+    <link href="__PUBLIC__/css/admin/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin//bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/main-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/ui.datepicker.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="__PUBLIC__/js/admin/jquery.1.7.1.js" charset="utf-8"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/admin/ui.datepicker.js" charset="utf-8"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/admin/ui.datepicker-zh-CN.js" charset="utf-8"></script>
+  
+<script>
+   function exportdata()
+   {
+	   var time1=$("#date1").val();
+	   var time2=$("#date2").val();
+	   //1.检查用户是否输入了日期区间
+	   location.href="<{:U('Report/exportdata/t1/"+time1+"/t2/"+time2+"')}>";
+   }
+   $(function() {
+		$('#date1').datepicker({showOn: "both", buttonImage: "__PUBLIC__/images/admin/datepicker.gif", buttonImageOnly: true});
+		$('#date2').datepicker({showOn: "both", buttonImage: "__PUBLIC__/images/admin/datepicker.gif", buttonImageOnly: true});
+	    
+	})
+</script>
+</head>
+<body>
+<div class="main">
+<form action="__ACTION__" method="post">
+	<table class="data-table2">
+		<tr>
+			<th>下单时间：</th>
+			<td><input name="date1" id="date1">&nbsp;至
+			</td>
+		</tr>
+		<tr>
+		    <th></th>
+		    <td>
+			 <input name="date2" id="date2" >
+		    </td>
+		</tr>
+	</table>
+	<input type="submit" value="查询" class="button button-primary">
+	&nbsp;
+	<input type="button" value="导出excel" onClick="exportdata();"  class="button button-primary">
+	<input type="reset" value="取消" class="button">
+</form>
+<table class="data-table2" style="text-align:center;">
+   <tr>
+       <td>商品名称</td>
+       <foreach name="montharr" item="x">
+       <td><{$x}></td>
+       </foreach>
+       <td>小计</td>
+   </tr>
+   <volist name="dataarr" id="v">
+    <tr>
+    <assign name="subtotal" value="0"/>
+        <td><{$key}></td>
+        <foreach name="montharr" item="xx">
+        <td>
+          <assign name="subtotal" value="$subtotal+$v[$xx]"/>
+          <if condition="$v[$xx] eq ''">
+            0
+            <else/>
+            <{$v[$xx]}>
+          </if>
+        </td>
+        </foreach>
+        <td><{$subtotal}></td>
+    </tr>
+    </volist>
+</table>
+</div>
+</body>
+</html>

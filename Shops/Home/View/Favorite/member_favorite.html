@@ -1,0 +1,186 @@
+<style>
+.pages a,.pages span {
+    display:inline-block;
+    padding:2px 5px;
+    margin:0 1px;
+    border:1px solid #f0f0f0;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.pages a,.pages li {
+    display:inline-block;
+    list-style: none;
+    text-decoration:none; color:#58A0D3;
+}
+.pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+    margin:0;
+}
+.pages a:hover{
+    border-color:#50A8E6;
+}
+.pages span.current{
+    background:#50A8E6;
+    color:#FFF;
+    font-weight:700;
+    border-color:#50A8E6;
+}
+</style>
+
+<include file="Public:mem_header" />
+
+<div class="content">
+  <div class="totline"></div>
+  <div class="botline"></div>
+  
+  <include file="Public:mem_left" />
+ 
+<div id="right">
+
+  <div class="submenu">
+    <ul class="tab">
+      <li class="active first">
+        <h2>
+          <a href="javascript:;">收藏商品</a>
+        </h2>
+      </li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="public table">
+      <table>
+        <tr class="operations line_bold">
+          <th colspan="7">
+            <p class="position2 clearfix">
+              
+            </p>
+          </th>
+        </tr>
+        <foreach name="arr" item="vv">
+        <tr class="line">
+          <td class="align2" style="width:25px">
+            <input type="checkbox" class="checkitem" value="<{$vv['item_id']}>" name="item_id" />
+          </td>
+          <td>
+            <p class="ware_pic">
+              <a href="index.php?app=goods&amp;id=15" target="_blank">
+                <img src="__ROOT__/<{$vv['default_image']}>" width="50" height="50"  />
+              </a>
+            </p>
+          </td>
+          <td>
+            <p class="ware_text">
+              <a href="index.php?app=goods&amp;id=15" target="_blank"><{$vv['goods_name']}></a>
+            </p>
+          </td>
+          <td class="width3">超级店铺</td>
+          <td class="width2">
+                         <a target="_blank" href="index.php?app=message&amp;act=send&amp;to_id=2" class="email" title="发站内信"></a>
+          </td>
+          <td class="width2">¥<{$vv['price']}></td>
+          <td class="width2">
+            <a href="javascript:delone(<{$vv['item_id']}>);" class="delete">删除</a>
+          </td>
+        </tr>
+       </foreach>
+        <tr class="operations">
+          <th colspan="7">
+            <p class="position1 clearfix">
+              <input type="checkbox"  class="checkall" onclick="checked(obj);"/>
+              <label for="all2">全选</label>
+              <a href="javascript:delall();" class="delete">删除</a>
+            </p>
+            <p class="position2 clearfix">
+              <div class="pages">
+                  <{$pages}>
+              </div>
+            </p>
+          </th>
+        </tr>
+      </table>
+       <script>
+               //单删的操作
+             function delone(id)
+             {
+            	 if(confirm("确定删除吗?"))
+                 {
+                	 $.post("<{:U('Favorite/member_del')}>",{"ids":id,"act":"del"},function(d){
+                		 
+                		if(d=="ok")
+                	    {
+                			 alert("删除成功");
+                			 location.href="<{:U('Favorite/member_favorite')}>";
+                	    }
+                		else
+                		{
+                			 alert("删除失败");
+                		}
+                	 })
+                	 
+                 }
+            	 
+             }
+           //全选的操作
+           function checkall(obj)
+           {
+        	    $(".checkitem").each(function(i,o){
+        	    	o.checked=obj.checked;
+        	    });
+        	   
+           }
+           //全删的操作
+           function delall()
+           {
+        	   var idstr="";
+        	   $(".checkitem").each(function(i,o){
+        		   if(o.checked)
+        		   {
+        			  idstr=idstr+o.value+",";
+        		   }
+        	   });
+        	
+        	   $.post("<{:U('Favorite/member_delall')}>",{"act":"delalls","ids":idstr},function(d){
+        		   if(d=="ok")
+   		          {
+   		    		alert("删除成功");
+   		    		location.href="<{:U('Favorite/member_favorite')}>";
+   		          }
+   		    	  else
+   		    		{
+   		    		 alert("删除失败");
+   		    		}
+        		   
+        	   });
+           }
+   
+   
+           
+           
+       </script>
+    </div>
+
+  </div>
+  <div class="clear"></div>
+  <div class="adorn_right1"></div>
+  <div class="adorn_right2"></div>
+  <div class="adorn_right3"></div>
+  <div class="adorn_right4"></div>
+</div>
+<div class="clear"></div>
+</div>
+<iframe id='iframe_post' name="iframe_post" src="about:blank" frameborder="0" width="0" height="0"></iframe>
+
+<include file="Public:mem_footer" />
+
+
+
+
+
+
+
+
+
+
+
+
+

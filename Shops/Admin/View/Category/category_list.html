@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>属性列表</title>
+    <link href="__PUBLIC__/css/admin/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/main-min.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="__PUBLIC__/js/admin/jquery-1.8.1.min.js"></script>
+</head>
+<body style="overflow-y:visible;">
+<div class="main">
+	<table class="data-table txt-center lev-txt-left">
+		<tr>
+			<th>分类名称</th>
+			<th>排序</th>
+			<th>有效</th>
+			<th>操作</th>
+		</tr>
+		<foreach name="getall" item="v">
+		<tr>
+			<td><php>echo str_repeat('&nbsp;',$v['lev']*2)</php>|-<{$v['name']}></td>
+			<td>255</td>
+			<td>有</td>
+			<td>
+				<a href="__CONTROLLER__/category_edit/id/<{$v['id']}>/p/<{$p}>" class="button button-small">编辑</a>
+				<a href="javascript:del(<{$v['id']}>);" class="button button-small">删除</a>
+				<a href="__CONTROLLER__/category_add_sub/id/<{$v['id']}>" class="button button-small">新增下一级</a>
+				<a href="__CONTROLLER__/category_prop/id/<{$v['id']}>" class="button button-small">分配属性</a>
+			</td>
+		</tr>
+		</foreach>
+	</table>
+	<div>
+	<{$page}>
+	</div>
+</div>
+<script>
+function del(id)
+{
+	if(confirm("确定删除吗?"))
+	{
+		 
+         $.post("__CONTROLLER__/category_del",{'ids':id,'action':'delone'},function(d)
+        		 {
+        	       if(d=="OK")
+        	    	   {
+        	    	     alert("删除成功");
+        	    	   }
+        	       else{
+        	    	     alert("删除失败");
+        	       }
+        		 }); 
+	}
+	
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>编辑分类</title>
+    <link href="__PUBLIC__/css/admin/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/main-min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main">
+<form action="" method="post">
+    <input type="hidden" value="<{$editarr['cate_id']}>" name="cate_id">
+    <input type="hidden" value="<{$p}>" name="p">
+	<table class="data-table2">
+		<tr>
+			<th>分类名称：</th>
+			<td>
+			<input type="text" value="<{$editarr['cate_name']}>" name="cate_name">
+			</td>
+		</tr>
+		<tr>
+			<th>上级分类：</th>
+			<td>
+				<select name="parent_id">
+			       <option value="">-请选择-</option>
+			       <foreach name="getall" item="v">			              
+			               <option value="<{$v['id']}>" <eq name="v['id']" value="$editarr['parent_id']">selected</eq>>
+			                    <php>echo str_repeat('&nbsp;',$v['lev']*2)</php>|-<{$v['name']}>
+			               </option> 		         
+			       </foreach>
+			   </select>
+			</td>
+		</tr>
+		<tr>
+			<th>排序：</th>
+			<td><input type="text" value="255"></td>
+		</tr>
+		<tr>
+			<th>有效：</th>
+			<td> 
+			    <input type="radio" name="if_show" value="1" <eq name="editarr['if_show']" value="1">checked</eq>>是
+			    <input type="radio" name="if_show" value="0" <eq name="editarr['if_show']" value="0">checked</eq>>否
+			</td>
+		</tr>
+	</table>
+	<input type="submit" value="确定" class="button button-primary">
+	<input type="reset" value="取消" class="button">
+</form>
+</div>
+</body>
+</html>

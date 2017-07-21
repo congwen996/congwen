@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户列表</title>
+    <link href="__PUBLIC__/css/admin/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/main-min.css" rel="stylesheet" type="text/css" />
+	<style>
+	.pages a,.pages span {
+	    display:inline-block;
+	    padding:2px 5px;
+	    margin:0 1px;
+	    border:1px solid #f0f0f0;
+	    -webkit-border-radius:3px;
+	    -moz-border-radius:3px;
+	    border-radius:3px;
+	}
+	.pages a,.pages li {
+	    display:inline-block;
+	    list-style: none;
+	    text-decoration:none; color:#58A0D3;
+	}
+	.pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+	    margin:0;
+	}
+	.pages a:hover{
+	    border-color:#50A8E6;
+	}
+	.pages span.current{
+	    background:#50A8E6;
+	    color:#FFF;
+	    font-weight:700;
+	    border-color:#50A8E6;
+	}
+	</style>    
+</head>
+<body style="overflow: auto;padding-bottom:20px;">
+<div class="main">
+	<table class="data-table txt-center">
+		<tr>
+			<th>用户id</th>
+			<th>用户名</th>
+			<th>注册时间</th>
+			<th>最后登录</th>
+			<th>联系电话</th>
+			<th><a href="__CONTROLLER__/member_add">添加</a></th>
+		</tr>
+		<foreach name="newArr" item="v">
+		<tr>
+			<td><{$v['user_id']}></td>
+			<td><{$v['user_name']}></td>
+			<td><{$v['reg_time']}></td>
+			<td><{$v['last_login']}></td>
+			<td><{$v['phone_tel']}></td>
+			<td><a href="__CONTROLLER__/member_edit/id/<{$v['user_id']}>/p/<{$p}>" class="button button-small">修改</a></td>
+		</tr>
+		</foreach>
+		<tr>
+		    <td colspan="6"><div class="pages"><{$fenye}></div></td>
+		 </tr>
+	</table>
+</div>
+<div style="height:100px;">
+</div>
+</body>
+</html>

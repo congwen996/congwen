@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>确认购物清单 - 仿酒仙运营版演示站</title>
+  <meta name="description" content="仿酒仙运营版演示站" />
+  <meta name="keywords" content="微商城" />
+
+  <meta name="author" content="ecmall.shopex.cn" />
+  <meta name="generator" content="ECMall 2.3.0" />
+  <meta name="copyright" content="ShopEx Inc. All Rights Reserved" />
+
+  <link type="text/css" href="__PUBLIC__/css/home/header.css" rel="stylesheet" />
+  <link type="text/css" href="__PUBLIC__/css/home/main.css" rel="stylesheet"  />
+  <link type="text/css" href="__PUBLIC__/css/home/footer.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="index.php?act=jslang"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/home/jquery.js" charset="utf-8"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/home/ecmall.js" charset="utf-8"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/home/cart.js" charset="utf-8"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/home/kissy/build/kissy.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/home/kissy/build/switchable/switchable-pkg.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/home/jquery.plugins/jquery.lazyload.js" charset="utf-8"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/home/main.js" charset="utf-8"></script>
+
+  <!--[if lte IE 6]>
+  <script type="text/javascript" language="Javascript" src="js/hoverForIE6.js"></script>
+  <![endif]-->
+  <!--[if IE]>
+  <style type="text/css">.allcategory-list .pop .catlist dl{float:left;}</style>
+  <![endif]-->
+
+  <!--<editmode></editmode>
+-->
+</head>
+<body>
+<!--顶部开始  -->
+<include file="Public:header"/>
+<!--顶部结束  -->
+<div id="header" class="w-full">
+  <div class="shop-t w clearfix pb10 mb5 mt5">
+    <div class="logo mt10">
+      <a href="#n" title="52ECmall仿酒仙运营版演示站">
+        <img alt="52ECmall仿酒仙运营版演示站" src="__PUBLIC__/images/home/site_logo.gif" />
+      </a>
+    </div>
+    <div class="top-search">
+      <div class="top-search-box clearfix">
+        <div class="form-fields float-left">
+          <!--<b class="rc-lt"></b>
+        <b class="rc-lb"></b>
+        -->
+        <form method="GET" action="index.php?app=search">
+          <input type="hidden" name="app" value="search" />
+          <input type="hidden" name="act" value="index" />
+          <input type="text"   name="keyword" value="" class="keyword kw_bj index_bj " />
+          <input type="submit" value="搜索" class="submit" hidefocus="true" />
+        </form>
+      </div>
+    </div>
+    <div class="top-search-keywords">
+      <a href="#n" style="color:#BB000D;border-left:0">ecmall</a>
+      <a href="#n" >微信商城</a>
+    </div>
+  </div>
+  <div class="top-search-ads float-right clearfix">
+    <a href="#n" target="_blank">
+      <img  width="114"  class="lazyload" initial-url="__PUBLIC__/images/home/top_ads1.jpg" />
+    </a>
+    <a href="#n" target="_blank">
+      <img  width="114"  class="lazyload" initial-url="__PUBLIC__/images/home/top_ads2.jpg" />
+    </a>
+    <a href="#n" target="_blank">
+      <img  width="114"  class="lazyload" initial-url="__PUBLIC__/images/home/top_ads3.jpg" />
+    </a>
+  </div>
+</div>
+<div class="w-full mall-nav">
+  <ul class="w clearfix">
+    <li class="allcategory float-left">
+      <a href="#n" target="_blank"> <i></i>
+        <span>所有分类</span>
+      </a>
+      <div class="allcategory-list hidden">
+        <div class="content clearfix">
+          <div style="background: #f1f1f1;" class="item">
+            <div class="pborder">
+              <h3 clas="clearfix">
+                <a href="#n" target="_blank"></a>
+                <span>></span>
+              </h3>
+              <p></p>
+            </div>
+            <div class="pop" >
+              <div class="catlist"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="each float-left inline-block">
+      <a class="" href="http://123.57.4.250:1003">首页</a>
+    </li>
+    <li class="each float-left inline-block">
+      <a class="" href="/index.php?app=ju" target="_blank">聚划算</a>
+    </li>
+    <li class="each float-left inline-block">
+      <a class="" href="index.php?app=search&act=groupbuy" target="_blank">团购</a>
+    </li>
+    <li class="each float-left inline-block">
+      <a class="" href="index.php?app=integral" target="_blank">积分商城</a>
+    </li>
+    <li class="each float-left inline-block">
+      <a class="" href="index.php?app=dazhuanpan" target="_blank">幸运大转盘</a>
+    </li>
+    <li class="each float-left inline-block">
+      <a class="" href="index.php?app=search&act=eggact" target="_blank">积分砸蛋</a>
+    </li>
+    <li class="each float-left inline-block">
+      <a class="" href="index.php?app=promotion" target="_blank">打折促销</a>
+    </li>
+    <li class="each float-left inline-block">
+      <a class="" href="index.php?app=sdemand" target="_blank">供求信息</a>
+    </li>
+
+    <li class="float-right nav-ads">
+      <a href="">
+        <img src="__PUBLIC__/images/home/832478ffccfd441a82dc20e97166b4c6.jpg" height="40" />
+      </a>
+    </li>
+  </ul>
+</div>
+</div>
+<style type="text/css">.mall-nav{display:none}</style>
+<script type="text/javascript">
+$(function(){
+  $(".btn-batch input[name='sellectAll']").click(function(){
+    $(".goods-each .select input[name='goods_id']").attr("checked",$(this).attr("checked"));
+  });
+  $(".btn-batch a").click(function(){
+    var name = this.name;
+    var checked = 0;
+    $(".goods-each .select input").each(function(){
+      if($(this).attr("checked")==true){
+        srg = $(this).val().split(":");
+        if(name=="batch_del"){
+          drop_cart_item(srg[0], srg[1]);
+        } else {
+          batch_move_favorite(srg[0], srg[1], srg[2],checked==0);
+        }
+        checked++;
+      }
+    });
+    if(!checked) {
+      alert('你未选择任何项');
+    }
+  });
+});
+
+</script>
+<div id="main" class="w-full">
+<div id="page-cart" class="w cart-index mb20">
+  <div class="step step1 mt10 clearfix">
+    <span class="fs14 strong fff">1.查看购物车</span>
+    <span class="fs14 strong">2.确认订单信息</span>
+    <span class="fs14 strong">3.付款</span>
+    <span class="fs14 strong">4.确认收货</span>
+    <span class="fs14 strong">5.评价</span>
+  </div>
+<!-- 购物车 -->
+<form action="__CONTROLLER__/cart_2" method="post" onsubmit="addName();">
+<input type="hidden" name="act" value="cart"></input>
+  <div class="cartbox w mt20 mb10">
+    <div class="amount"></div>
+    <div class="title clearfix mb10">
+      <span class="sellect-all">选择</span>
+      <span class="col-desc">商品</span>
+      <span>价格</span>
+      <span>数量</span>
+      <span>小计</span>
+      <span>操作</span>
+    </div>
+    <div class="content">
+      <div class="store-each">
+         <!-- 购物车中的商品列表(开始) -->
+         <volist name="newcartArr" id="v">
+         <dl class="goods-each clearfix" id="cart_item_<{$v['goods_id']}>">
+          <dd class="select">
+            <input type="checkbox" class="curid" name="s2[]" onclick="sel();" value="<{$v['goods_id']}>" />
+          </dd>
+          <dd class="pic">
+            <a class="block" href="index.php?app=goods&amp;id=<{$v['goods_id']}>" target="_blank">
+              <img src="__PUBLIC__/images/home/<{$v['goods_image']}>" alt="<{$v['goods_name']}>" width="48" height="48" />
+            </a>
+          </dd>
+          <dd class="desc">
+            <p>
+              <a href="#n" target="_blank"><{$v['goods_name']}></a>
+            </p>
+            <span class="f66"></span>
+          </dd>
+
+          <dd class="price">￥<{$v['price']}></dd>
+          <dd class="quantity">
+            <img src="__PUBLIC__/images/home/subtract.gif" onclick="decrease_quantity(<{$v['goods_id']}>),sel();" alt="减少" width="11" height="11"/>
+            <input class="input" id="input_item_<{$v['goods_id']}>" value="<{$v['quantity']}>" orig="1" changed="1" onkeyup="change_quantity(2, <{$v['goods_id']}>, 22, this);" type="text" />
+            <img src="__PUBLIC__/images/home/adding.gif" onclick="add_quantity(<{$v['goods_id']}>),sel();" alt="增加" width="11" height="11" />
+          </dd>
+          <dd class="subtotal fs14 strong" id="item<{$v['goods_id']}>_subtotal">￥<{$v['price']*$v['quantity']}></dd>
+          <dd class="handle">
+            <a class="move" href="javascript:;" onclick="move_favorite(2, <{$v['goods_id']}>, 22);">加入收藏夹</a>
+            <br />
+            <a class="del" href="javascript:;" onclick="delone(<{$v['goods_id']}>);">删除</a>
+          </dd>
+        </dl>
+         </volist>
+         
+         <!-- 购物车中的商品列表(结束) -->
+        <div class="cart-amount mt20 w auto mb10 clearfix">
+          <div class="btn-batch mt5">
+            <label class="pl10">
+              <input value="2" type="checkbox" name="sellectAll" onclick="selAll(this);" />
+              全选/反选
+            </label>
+            <a href="javascript:a();" title="批量删除">批量删除</a>
+            <a href="#n" title="批量收藏">批量收藏</a>
+          </div>
+          <div class="btn-amount">
+            <p>
+              <a href="__MODULE__/Index/index" class="inline-block back center">继续购物</a>
+              <span class="ml20">商品总价：</span>
+              <strong class="price fs14 strong mr20"  id="cart_amount">￥0.00</strong>
+              <if condition="$dl eq 1">
+              <input type="submit"  value="填写并确认订单" class="inline-block btn fs14 center fff strong"></input>
+              <else/>
+              <a href="javascript:buy(<{$dl}>);" class="inline-block btn fs14 center fff strong">填写并确认订单</a>
+              </if>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+<script>
+//遍历给用户选择的商品加name
+function addName(){
+	$(".curid").each(function(i,o){
+		if(o.checked==true){
+			$("#input_item_"+o.value).attr("name","val[]");
+		}
+	})
+	return false;
+}
+//总价
+function sel(){
+	var num=0;
+	$(".curid").each(function(i,o){
+		if(o.checked==true){
+			num+=Number($("#item"+o.value+"_subtotal").html().substr(1));
+		}
+	})
+	$("#cart_amount").html("￥"+num);
+}
+//全选
+function selAll(obj){
+	$(".curid").each(function(i,o){
+		o.checked=obj.checked;
+	})
+	sel();
+}
+
+function buy(dl)
+{
+	$.post("__MODULE__/Cart/buy",{"dl":dl},function(a)
+			{
+				if(a==1)
+				{
+					location.href="__MODULE__/Cart/cart_2/act/cart";
+				}
+				else
+				{
+					alert("请先登陆");
+					location.href="__MODULE__/MemLogin/Mem_login";	
+				}	
+			},"html");	
+}
+function delone(goodsid)
+{
+	if(confirm("确定删除吗?"))
+	{
+		$.post("__CONTROLLER__/delone",{"goodsid":goodsid},function(a)
+				{
+					alert(a);
+					location.href="__ACTION__";
+				},"html");
+	}
+}
+function favorite(goodsid)
+{
+	$.post("__MODULE__/Detail/favorite",{"goodsid":goodsid},function(a)
+			{
+				if(a==0)
+				{
+					alert("请先登陆");
+					location.href="__MODULE__/Memlogin/login/goodsid/"+goodsid;	
+				}
+				else
+				{
+					alert(a);
+				}
+			},"html");	
+}
+</script>
+  <div class="interest mt20">
+    <div class="title border fs14 padding5 f66 strong">
+      <span class="arr"></span>
+      你可能感兴趣的商品
+    </div>
+    <div class="content border border-t-0 clearfix">
+     <foreach name="goodsLike" item="v">
+      <dl class="float-left">
+        <dt>
+          <a href="__MODULE__/Detail/detail/goodsid/<{$v['goods_id']}>" target="_blank">
+            <img width="160" height="160" src="__PUBLIC__/images/home/<{$v['default_image']}>" />
+          </a>
+        </dt>
+        <dd class="desc">
+          <a href="__MODULE__/Detail/detail/goodsid/<{$v['goods_id']}>" target="_blank"><{$v['goods_name']}></a>
+        </dd>
+        <dd class="price clearfix"> <em><{$v['price']}></em>
+          <span>最新成交<{$v['sales']}>笔</span>
+        </dd>
+        <dd class="service"></dd>
+      </dl>
+      </foreach>
+    </div>
+  </div>
+</div>
+</div>
+<!-- 底部开始 -->
+<include file="Public:membottom"/>
+<!-- 底部结束 -->
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>分配属性</title>
+    <link href="__PUBLIC__/css/admin/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/main-min.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="__PUBLIC__/js/admin/jquery-1.8.1.min.js"></script>
+</head>
+<body style="overflow-y:visible;">
+<div class="main">
+<form action="<{:U('Category/category_prop')}>" method="post">
+    <input type="hidden" name="cate_id" value="<{$ids}>">
+	<table class="data-table txt-center">
+		<tr bgcolor="#E4E4E4" style="font-size:12px;font-weight:bold;">
+			<td>属性名</td>
+			<td>属性值</td>
+		</tr>
+		<volist name="pvarr" id='v'>
+		      <assign name="pkey" value="$key"/>
+			<tr>
+				<td><input type="checkbox" name="pname[]" value="<{$namearr[$key]}>" onclick="chkAll(this,<{$namearr[$key]}>)"><{$key}></td>
+				<td>
+				   <volist name="v" id="xx">			
+						<input type="checkbox" class="id_<{$namearr[$pkey]}>" name="vname<{$namearr[$pkey]}>[]" value="<{$key}>" ><{$xx}>&nbsp;&nbsp;
+					</volist>		
+				</td>
+			</tr>
+	 </volist>	
+	</table>
+	<input type="submit" value="确定" class="button button-primary">
+	<input type="reset" value="取消" class="button">
+</form>
+</div>
+<script>
+   function chkAll(obj,id)
+   {
+	   $(".id_"+id).each(function(a,b)
+			   {
+		            b.checked=obj.checked;
+			   }
+			   );
+   }
+</script>
+</body>
+</html>

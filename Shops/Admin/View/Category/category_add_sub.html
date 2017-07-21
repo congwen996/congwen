@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加下一级分类</title>
+    <link href="__PUBLIC__/css/admin/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/main-min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main">
+<form action="" method="post">
+	<table class="data-table2">
+		<tr>
+			<th>分类名称：</th>
+			<td><input type="text" name="cate_name"></td>
+		</tr>
+		<tr>
+			<th>上级分类：</th>
+			<td>
+				<select name="parent_id">
+			       <option value="">-请选择-</option>
+			       <volist name="getall" id="v">
+			          <option value="<{$v['id']}>" <eq name="v['id']" value="$id">selected</eq>>
+			               <php>echo str_repeat('&nbsp;',$v['lev']*2)</php>|-<{$v['name']}>
+			          </option>
+			       </volist>
+			   </select>
+			</td>
+		</tr>
+		<tr>
+			<th>排序：</th>
+			<td><input type="text" value="255" name="sort_order"></td>
+		</tr>
+		<tr>
+			<th>有效：</th>
+			<td>
+			    <input type="radio" name="if_show" value="1">是
+			    <input type="radio" name="if_show" value="0">否</td>
+		</tr>
+	</table>
+	<input type="submit" value="确定" class="button button-primary">
+	<input type="reset" value="取消" class="button">
+</form>
+</div>
+</body>
+</html>

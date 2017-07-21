@@ -1,0 +1,27 @@
+[ 2016-12-04T20:33:01+08:00 ] 127.0.0.1 /myshop/index.php/Home/Register/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-04T20:34:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-04T20:34:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-04T20:34:38+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemUserinfo/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-04T20:34:40+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-04T20:34:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-04T20:38:15+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-04T20:38:15+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-04T20:38:16+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+

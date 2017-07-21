@@ -1,0 +1,1466 @@
+[ 2016-11-29T08:39:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T08:39:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/buy.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T08:39:44+08:00 ] 127.0.0.1 /myshop/index.php/Home/Login/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T08:40:06+08:00 ] 127.0.0.1 /myshop/index.php/Home/Login/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T08:41:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T08:41:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/buy.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-29T08:41:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T09:15:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/buy.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T09:16:08+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:24:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:24:14+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:24:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:25:46+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:25:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:26:04+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:26:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:26:53+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:30:25+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:31:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:32:46+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:35:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:35:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:35:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:35:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:35:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:35:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:35:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:35:25+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:35:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:36:47+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:38:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:39:36+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:40:14+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:41:06+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:41:08+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:43:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T09:43:25+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:01:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:16:43+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:16:46+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:16:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:17:02+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:18:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:18:40+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:18:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:20:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:20:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:22:31+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:23:22+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:23:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:23:30+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:23:32+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:23:32+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:23:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:23:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:23:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:23:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:23:45+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:24:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:24:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:24:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:24:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:24:30+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:24:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:24:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:24:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:24:58+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:25:11+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:25:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:25:36+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:25:43+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:25:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:35:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:35:16+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T10:35:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:19:41+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T18:19:44+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/buy.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T18:19:46+08:00 ] 127.0.0.1 /myshop/index.php/Home/Login/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:20:03+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T18:20:04+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/buy.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T18:20:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:21:05+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:25:06+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:25:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T18:25:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/buy.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T18:33:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:34:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:34:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/buy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T18:34:25+08:00 ] 127.0.0.1 /myshop/index.php/Home/Memlogin/login
+ERR: 无法加载控制器:Memlogin
+
+[ 2016-11-29T18:34:27+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:35:40+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:35:41+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/buy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T18:35:43+08:00 ] 127.0.0.1 /myshop/index.php/Home/Login/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:35:58+08:00 ] 127.0.0.1 /myshop/index.php/Home/Login/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:36:38+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:40:05+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=my_favorite&act=add&type=goods&item_id=22&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:40:06+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=my_favorite&act=add&type=goods&item_id=22&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:40:53+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:41:16+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:42:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:43:56+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:46:01+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:48:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:48:45+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:48:47+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:50:54+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:51:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:54:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T18:55:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:00:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:00:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:01:47+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:01:56+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:01:57+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:02:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:04:15+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:04:15+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:04:30+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:04:30+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:04:41+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:05:36+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:06:02+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/css/header.css
+ERR: 非法操作:css
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/cart.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/css/footer.css
+ERR: 非法操作:css
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/switchable/switchable-pkg.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/ecmall.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/kissy.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/css/main.css
+ERR: 非法操作:css
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.lazyload.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/main.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/cart.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/kissy.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/switchable/switchable-pkg.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.lazyload.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:07:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/main.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:08:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:09:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:09:16+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:09:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/ecmall.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/css/main.css
+ERR: 非法操作:css
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/cart.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/css/footer.css
+ERR: 非法操作:css
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/kissy.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/switchable/switchable-pkg.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/main.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.lazyload.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/ecmall.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/cart.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/kissy.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/switchable/switchable-pkg.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.lazyload.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:10:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/main.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/kissy.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:11:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/cart.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/switchable/switchable-pkg.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/ecmall.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.lazyload.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/main.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/ecmall.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/cart.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/kissy.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/kissy/build/switchable/switchable-pkg.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.lazyload.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:11:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/main.js
+ERR: 非法操作:js
+
+[ 2016-11-29T19:12:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:12:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:12:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:12:27+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:13:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:13:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=my_favorite&act=add&type=goods&item_id=22&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:13:30+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:13:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:35+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:52+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:52+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:52+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:53+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:53+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:53+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:53+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:14:54+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:15:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:15:37+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:18:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:18:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:18:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:19:05+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:19:06+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:19:06+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:20:45+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:20:53+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:21:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:21:57+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:21:58+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:21:58+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:21:58+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:22:41+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:23:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:23:53+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=28
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:23:54+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:23:54+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=26
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:23:55+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=25
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:23:55+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:23:55+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:23:55+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:23:56+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=21
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:24:04+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:24:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:24:08+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:25:38+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:26:03+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:26:14+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:26:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:26:25+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:27:47+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:31:00+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T19:31:03+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/buy.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T19:31:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T19:31:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:32:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:32:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:32:54+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:32:55+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:32:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:33:00+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:33:00+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:33:00+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:36:14+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:36:46+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:36:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:37:22+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:37:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:37:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:37:35+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:37:35+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:37:35+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:37:37+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:37:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:38:15+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T19:38:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `user_id` = 1 AND `goods_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T19:38:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `user_id` = 1 AND `goods_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T19:38:32+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T19:38:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `user_id` = 1 AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecm_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecm_goods` WHERE `goods_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ecm_cart` (`user_id`,`goods_id`,`goods_name`,`price`) VALUES ('1','12','杰记 国产 红肉 新鲜 红心蜜柚','28.50') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T19:39:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/buy.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-29T19:41:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:41:10+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:42:10+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:44:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:44:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:47:47+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:47:48+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:47:49+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: UPDATE `ecm_cart` SET `isdel`='0' WHERE `session_id` = 'l53siu8fjrf7gdle77r69t7mp1' AND `goods_id` = 12 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T19:47:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:48:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=goods&id=22
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:49:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:57:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:57:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=my_favorite&act=add&type=goods&item_id=undefined&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:57:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=my_favorite&act=add&type=goods&item_id=undefined&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:57:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=my_favorite&act=add&type=goods&item_id=undefined&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:58:06+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T19:59:55+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:27+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:32+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'l53siu8fjrf7gdle77r69t7mp1' AND `goods_id` = 12 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T20:08:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:37+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:38+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:40+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:44+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0020s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'l53siu8fjrf7gdle77r69t7mp1' AND `goods_id` = 2 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T20:08:46+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:48+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:52+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:52+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:08:53+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:10:58+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:11:03+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:11:04+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'l53siu8fjrf7gdle77r69t7mp1' AND `goods_id` = 2 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-29T20:11:05+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:12:37+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:12:40+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:12:41+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'l53siu8fjrf7gdle77r69t7mp1' AND `goods_id` = 12 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T20:12:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:14:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:14:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:14:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'l53siu8fjrf7gdle77r69t7mp1' AND `goods_id` = 12 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T20:14:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:14:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:14:41+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:14:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0020s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'l53siu8fjrf7gdle77r69t7mp1' AND `goods_id` = 12 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-29T20:14:43+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:15:44+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:15:46+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:15:48+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0020s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'l53siu8fjrf7gdle77r69t7mp1' AND `goods_id` = 12 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-29T20:15:49+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:17:43+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:17:48+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:17:49+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'nb64hkfhnct0q53p1aejs5hmp0' AND `goods_id` = 12 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-29T20:17:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:19:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:25:00+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:33:22+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:33:25+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:33:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'nb64hkfhnct0q53p1aejs5hmp0' AND `goods_id` = 1 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T20:33:27+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:33:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:33:32+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:33:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'nb64hkfhnct0q53p1aejs5hmp0' AND `goods_id` = 12 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T20:33:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:34:05+08:00 ] 127.0.0.1 /myshop/index.php/Home/Login/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:34:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-11-29T20:34:38+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:34:40+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-11-29T20:34:41+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: DELETE FROM `ecm_cart` WHERE `user_id` = 1 AND `goods_id` = 12 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-29T20:34:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+

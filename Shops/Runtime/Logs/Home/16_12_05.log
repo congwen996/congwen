@@ -1,0 +1,701 @@
+[ 2016-12-05T13:56:38+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-12-05T18:13:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:13:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:13:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemUserinfo/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:13:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemUserinfo/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:13:27+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:13:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:13:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:13:47+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:13:48+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:13:49+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:13:55+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:45+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:46+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:47+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:49+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:54+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:15:54+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:16:01+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:16:02+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:16:08+08:00 ] 127.0.0.1 /myshop/index.php/Home/Memaccount/member_account
+ERR: 无法加载控制器:Memaccount
+
+[ 2016-12-05T18:16:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/Memorder/member_order
+ERR: 无法加载控制器:Memorder
+
+[ 2016-12-05T18:17:31+08:00 ] 127.0.0.1 /myshop/index.php/Home/Memorder/member_order
+ERR: 无法加载控制器:Memorder
+
+[ 2016-12-05T18:17:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Memorder/member_order
+ERR: 无法加载控制器:Memorder
+
+[ 2016-12-05T18:20:22+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/member_order_list
+ERR: 非法操作:member_order_list
+
+[ 2016-12-05T18:21:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/member_order_list
+ERR: 非法操作:member_order_list
+
+[ 2016-12-05T18:21:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:21:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:21:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/mlselection.js
+ERR: 非法操作:js
+
+[ 2016-12-05T18:21:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-05T18:21:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.plugins/jquery.validate.js
+ERR: 非法操作:js
+
+[ 2016-12-05T18:21:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-05T18:21:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/dialog/dialog.js
+ERR: 非法操作:js
+
+[ 2016-12-05T18:21:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/js/jquery.ui/jquery.ui.js
+ERR: 非法操作:js
+
+[ 2016-12-05T18:21:43+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:23:38+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:24:03+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:24:08+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:24:08+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=update&spec_id=22&quantity=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:24:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:24:22+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?app=cart&act=drop&rec_id=570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:24:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: DELETE FROM `ecm_cart` WHERE `user_id` = 1 AND `goods_id` = 1 [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-05T18:24:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:24:25+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:24:48+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/act/loginout/cateid//goodsid/
+ERR: 非法操作:act
+
+[ 2016-12-05T18:24:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:25:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/act/loginout/cateid//goodsid/
+ERR: 非法操作:act
+
+[ 2016-12-05T18:25:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:26:09+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:26:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:26:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:26:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:32:30+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:34:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:34:36+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:35:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:36:09+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:36:27+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:36:37+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:39:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:39:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?app=find_password
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:39:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:39:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemRegister/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:39:25+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:39:40+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:39:44+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:40:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:40:43+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:41:06+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:41:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:41:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:42:11+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:42:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?app=my_favorite
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:42:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:43:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:43:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:43:27+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:46:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:46:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:46:31+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?app=buyer_order
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:46:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:46:46+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:46:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:47:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:47:16+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:47:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:47:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:47:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:47:22+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:47:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:48:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:48:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:48:36+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:49:02+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:49:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:50:10+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:51:54+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:52:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:52:36+08:00 ] 127.0.0.1 /myshop/index.php/Home/Memorder/member_order
+ERR: 无法加载控制器:Memorder
+
+[ 2016-12-05T18:53:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:54:03+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:54:08+08:00 ] 127.0.0.1 /myshop/index.php/Home/Memfavorite/member_favorite
+ERR: 无法加载控制器:Memfavorite
+
+[ 2016-12-05T18:55:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:55:54+08:00 ] 127.0.0.1 /myshop/index.php/Home/Memfavorite/member_favorite
+ERR: 无法加载控制器:Memfavorite
+
+[ 2016-12-05T18:57:05+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:57:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-12-05T18:57:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-12-05T18:57:31+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `user_id` = 2 AND `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecm_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ecm_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0170s ]
+SQL: INSERT INTO `ecm_cart` (`user_id`,`goods_id`,`goods_name`,`price`) VALUES ('2','15','海泉 进口柠檬 尤力克 新鲜配送','30.60') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-05T18:57:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/buy.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-05T18:57:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-12-05T18:57:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `user_id` = 2 AND `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-05T18:57:55+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:57:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?app=my_favorite
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:58:01+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:58:11+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?app=cart
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:58:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T18:58:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:00:55+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?app=cart
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:00:58+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:01:55+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:01:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:02:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:02:22+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-12-05T19:02:25+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `user_id` = 2 AND `goods_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecm_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecm_goods` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `ecm_cart` (`user_id`,`goods_id`,`goods_name`,`price`) VALUES ('2','1','合家欢 新鲜西红柿 酸酸甜甜 凌晨采购 全程冷链','8.00') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-05T19:02:44+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:02:47+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?app=find_password
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:02:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:02:52+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemRegister/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:03:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemRegister/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:03:57+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:04:17+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:04:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?app=buyer_order
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:04:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:04:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?app=buyer_order
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:04:41+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:05:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/member_order.html
+ERR: 非法操作:member_order
+
+[ 2016-12-05T19:05:09+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:05:53+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/member_order.html
+ERR: 非法操作:member_order
+
+[ 2016-12-05T19:05:56+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:34+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:36+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemUserinfo/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:38+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:40+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:40+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:43+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:44+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemUserinfo/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:46+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:48+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemUserinfo/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:54+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:56+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:58+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:06:58+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:08:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:08:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:08:41+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:08:41+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:08:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:08:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:08:48+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:08:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:08:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:08:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:09:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:09:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:10:14+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:10:14+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:10:20+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:10:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:10:48+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?app=buyer_order
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:10:50+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:13:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:13:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:13:56+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:13:58+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:13:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:13:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:03+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:19+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAccount/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemUserinfo/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:23+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:24+08:00 ] 127.0.0.1 /myshop/index.php/Home/Favorite/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:29+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?app=buyer_order
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:32+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:32+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:14:32+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:18:03+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T19:18:03+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T20:04:33+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T20:04:45+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T20:04:45+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemAddress/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T20:05:04+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemCart/cart_1
+ERR: 无法加载控制器:MemCart
+
+[ 2016-12-05T20:05:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T20:05:16+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-12-05T20:05:18+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `user_id` = 3 AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecm_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecm_goods` WHERE `goods_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ecm_cart` (`user_id`,`goods_id`,`goods_name`,`price`) VALUES ('3','12','杰记 国产 红肉 新鲜 红心蜜柚','28.50') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-05T20:05:21+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T20:05:27+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2016-12-05T20:05:28+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `user_id` = 3 AND `goods_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecm_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecm_goods` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ecm_cart` (`user_id`,`goods_id`,`goods_name`,`price`) VALUES ('3','1','合家欢 新鲜西红柿 酸酸甜甜 凌晨采购 全程冷链','8.00') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-05T20:05:31+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T20:17:49+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T20:17:49+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemOrder/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2016-12-05T20:17:51+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+

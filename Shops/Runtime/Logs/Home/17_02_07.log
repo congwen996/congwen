@@ -1,0 +1,21 @@
+[ 2017-02-07T21:08:13+08:00 ] 127.0.0.1 /myshop/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-07T21:12:11+08:00 ] 127.0.0.1 /myshop/index.php
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-07T21:51:24+08:00 ] 127.0.0.1 /myshop/index.php/home
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-07T21:51:37+08:00 ] 127.0.0.1 /myshop/index.php/home/Index/index.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-07T21:52:25+08:00 ] 127.0.0.1 /myshop/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-07T21:52:31+08:00 ] 127.0.0.1 /myshop/home
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-07T21:53:17+08:00 ] 127.0.0.1 /myshop/home/list/listye.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+

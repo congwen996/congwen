@@ -1,0 +1,74 @@
+
+  <script type="text/javascript">
+$(function(){
+    $('#add_time_from').datepicker({dateFormat: 'yy-mm-dd'});
+    $('#add_time_to').datepicker({dateFormat: 'yy-mm-dd'});
+});
+</script>
+  <style type="text/css">.float_right {float: right;}</style>
+  <div class="content">
+    <div id="left">
+      <h2>
+        <strong title="用户中心"></strong>
+        <div class="adorn1"></div>
+        <div class="adorn2"></div>
+      </h2>
+      <dl>
+        <dt>我的账户</dt>
+        <dd>
+          <a href="<{:U('Home/MemAccount/Mem_account')}>" class="normal ico">
+            <span class="ico1">账户概览</span>
+          </a>
+        </dd>
+        <dd>
+          <a href="<{:U('Home/MemUserinfo/Mem_userinfo')}>" class="normal ico">
+            <span class="ico2">个人资料</span>
+          </a>
+        </dd>
+      </dl>
+      <dl>
+        <dt>我是买家</dt>
+        <dd>
+          <a href="<{:U('Home/MemOrder/Mem_order_list')}>" class="active ico">
+            <span class="ico5">我的订单</span>
+          </a>
+        </dd>
+        <!--
+                    <dd>
+        <a href="member_groupbuy.html" class="normal">
+          <span class="ico21">我的团购</span>
+        </a>
+      </dd>
+      <dd>
+        <a href="member_question.html" class="normal">
+          <span class="ico17">我的咨询</span>
+        </a>
+      </dd>
+      -->
+      <dd>
+        <a href="<{:U('Home/Favorite/member_favorite')}>" class="normal ico">
+          <span class="ico6">我的收藏</span>
+        </a>
+      </dd>
+      <dd>
+        <a href="<{:U('Home/MemAddress/mem_address')}>" class="normal ico">
+          <span class="ico7">我的地址</span>
+        </a>
+      </dd>
+    </dl>
+    <div class="clear"></div>
+    <div class="adorn_bottom"></div>
+  </div>
+  
+  <script>
+      $(function(){
+    	  var url=window.location.href;
+    	  $(".ico").each(function(a,b){
+    		  $(b).attr("class","normal");
+    		  if(b==url)
+    			  {
+    			    $(b).attr("class","active");
+    			  }
+    	  })
+      })
+  </script>

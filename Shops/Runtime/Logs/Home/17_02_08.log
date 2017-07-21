@@ -1,0 +1,73 @@
+[ 2017-02-08T09:08:40+08:00 ] 127.0.0.1 /myshop/index.php/Home
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-08T09:09:36+08:00 ] 127.0.0.1 /myshop/index.php/Home/index/index.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-08T09:10:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/index/index.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-08T09:10:09+08:00 ] 127.0.0.1 /myshop/index.php/Home/index/index.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-08T09:10:11+08:00 ] 127.0.0.1 /myshop/index.php/Home/index/index.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-08T09:10:12+08:00 ] 127.0.0.1 /myshop/index.php/Home/index/index.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-08T09:10:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/index/index.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-08T09:10:13+08:00 ] 127.0.0.1 /myshop/index.php/Home/index/index.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-08T09:10:14+08:00 ] 127.0.0.1 /myshop/index.php/Home/index/index.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-08T09:10:26+08:00 ] 127.0.0.1 /myshop/index.php/Home/Index/index.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-02-08T09:11:39+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/detail/goodsid/index.php?act=jslang
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'index.php' in 'where clause'
+
+[ 2017-02-08T09:11:42+08:00 ] 127.0.0.1 /myshop/index.php/Home/Detail/processaddcart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ecm_cart` WHERE `session_id` = 'tk4upu75jmk8jtvflq95no9ed4' AND `goods_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecm_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecm_goods` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ecm_cart` (`session_id`,`goods_id`,`goods_name`,`goods_image`,`price`) VALUES ('tk4upu75jmk8jtvflq95no9ed4','1','合家欢 新鲜西红柿 酸酸甜甜 凌晨采购 全程冷链','data/files/store_2/goods_110/small_201312262048304586.jpg','8.00') [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T09:12:07+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2017-02-08T09:13:59+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/delone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_cart` [ RunTime:0.0050s ]
+SQL: DELETE FROM `ecm_cart` WHERE `session_id` = 'tk4upu75jmk8jtvflq95no9ed4' AND `goods_id` = 1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T09:14:01+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/index.php?act=jslang
+ERR: 非法操作:index.php
+
+[ 2017-02-08T09:14:04+08:00 ] 127.0.0.1 /myshop/index.php/Home/Cart/buy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-08T09:14:05+08:00 ] 127.0.0.1 /myshop/index.php/Home/MemLogin/index.php?act=jslang
+ERR: 非法操作:index.php
+

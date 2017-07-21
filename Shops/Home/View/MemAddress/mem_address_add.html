@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>用户中心 - 我的地址</title>
+  <meta name="description" content="仿酒仙运营版演示站" />
+  <meta name="keywords" content="微商城" />
+
+  <meta name="author" content="ecmall.shopex.cn" />
+  <meta name="copyright" content="ShopEx Inc. All Rights Reserved" />
+  <link href="__PUBLIC__/css/home/global.css" rel="stylesheet" type="text/css" />
+  <link href="__PUBLIC__/css/home/user.css" rel="stylesheet" type="text/css" />
+  <link href="__PUBLIC__/css/home/footer.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript">
+//<!CDATA[
+var SITE_URL = "http://localhost/jiuxian";
+var REAL_SITE_URL = "http://localhost/jiuxian";
+var PRICE_FORMAT = '¥%s';
+//]]>
+</script>
+  <script type="text/javascript" src="index.php?act=jslang"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/home/jquery.js" charset="utf-8"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/home/ecmall.js" charset="utf-8"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/home/member.js" charset="utf-8"></script>
+  <!--[if lte IE 6]>
+  <script type="text/javascript" language="Javascript" src="js/hoverForIE6.js"></script>
+  <![endif]-->
+  <script type="text/javascript">
+$(function(){
+    $('#left h1 span,h2.title a.fold').click(function(){
+        if($(this).hasClass('span_close')){
+            $(this).removeClass('span_close');
+            $(this).addClass('span_open');
+            this.title = 'open';
+            closeSubmenu($(this).parent());
+        }
+        else{
+            $(this).removeClass('span_open');
+            $(this).addClass('span_close');
+            this.title = 'close';
+            openSubmenu($(this).parent());
+        }
+    });
+
+    var span = $("#child_nav");
+    span.hover(function(){
+        $("#float_layer:not(:animated)").show();
+    }, function(){
+        $("#float_layer").hide();
+    });
+  
+  // tyioocom
+  $('.tsearch-tabs li').click(function(){
+    $(this).parent().find('li').each(function(){
+      $(this).attr('class','');
+    });
+    $(this).attr('class','tsearch-tabs-active');
+    $('.tsearch-panel input[name="act"]').val($(this).attr('ectype'));
+  });
+  $('.tsearch-panel #keyword').focus(function(){
+    $('.tsearch-panel label').hide();
+  }).blur(function(){
+    if($(this).val()==''){
+      $('.tsearch-panel label').show();
+    }
+  });
+  
+});
+function closeSubmenu(h1){
+    h1.next('ul').css('display', 'none');
+}
+function openSubmenu(h1){
+    h1.next('ul').css('display', '');
+}
+</script>
+  <script charset="utf-8" type="text/javascript" src="__PUBLIC__/js/home/dialog/dialog.js" id="dialog_js"></script>
+  <script charset="utf-8" type="text/javascript" src="__PUBLIC__/js/home/jquery.ui/jquery.ui.js" ></script>
+  <script charset="utf-8" type="text/javascript" src="__PUBLIC__/js/home/jquery.plugins/jquery.validate.js" ></script>
+  <script charset="utf-8" type="text/javascript" src="__PUBLIC__/js/home/mlselection.js" ></script>
+  <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/home/ui-lightness/jquery.ui.css"  />
+</head>
+
+
+
+  <style type="text/css">
+#footer_links dl {width: 170px !important;margin-left:15px;_margin-left:0px;}
+#footer_links {width: 1000px !important;_width:930px  !important;padding: 20px 0px 15px 0px !important;}
+#footer #footer_links2 {width: 1000px !important;padding: 20px 0px 15px 0px;}
+#footer #footer_links2  dl{width:95px !important;}
+#footer #footer_links2  dl.last{width:130px !important;}
+</style>
+<body>
+
+  <include file="Public/mem_header" />
+   
+ <div class="content">
+    <div class="totline"></div>
+    <div class="botline"></div>
+    
+    <include file="Public/mem_left" />
+    
+  <div id="right">
+    <div class="submenu">
+      <ul class="tab">
+        <li class="active first">
+          <h2>
+            <a href="javascript:;">地址列表</a>
+          </h2>
+        </li>
+      </ul>
+    </div>
+    <div class="wrap">
+      <form action="__ACTION__" method='post'>
+    <div class="wrap">
+      <div class="public table">
+        <table>
+          <tr class="line_bold">
+            <td colspan='2'><input type="hidden" name='user_id' value="<{$usrid}>" /></td>
+          </tr>
+          <tr class="line_bold">
+            <th>收货人姓名</th>
+            <td><input type="text" name='consignee'  /></td>
+          </tr>
+          <tr class="line_bold">
+            <th>所在地区</th>
+            <td><input type="text" name='region_name' /></td>
+          </tr>
+          <tr class="line_bold">
+            <th>详细地址</th>
+            <td><input type="text" name='address'/></td>
+          </tr>
+          <tr class="line_bold">
+            <th>邮政编码</th>
+            <td><input type="text" name='zipcode'/></td>
+          </tr>
+          <tr class="line_bold">
+            <th>电话/手机</th>
+            <td><input type="text" name='phone_mob'/></td>
+          </tr>
+          <tr class="line_bold">
+            <td colspan='2' align='left'><input type='submit' value='添加' style="margin-left:130px; background:#ccc;"/>&nbsp;&nbsp;<input type='reset' value='取消' style="margin-left:20px; background:#ccc;" /></td>
+          </tr>
+      </table>  
+    </div>
+    </div>
+    </form>
+    
+    
+  </div>
+  <div class="clear"></div>
+  <div class="adorn_right1"></div>
+  <div class="adorn_right2"></div>
+  <div class="adorn_right3"></div>
+  <div class="adorn_right4"></div>
+</div>
+
+
+
+<div class="clear"></div>
+
+</div>
+<iframe id='iframe_post' name="iframe_post" frameborder="0" width="0" height="0"></iframe>
+
+
+
+
+<include file="Public/mem_footer" />
+
+
+</body>
+</html>

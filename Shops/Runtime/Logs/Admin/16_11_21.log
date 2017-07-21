@@ -1,0 +1,40 @@
+[ 2016-11-21T08:05:05+08:00 ] 127.0.0.1 /myshop/admin.php/Goods/genecates.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_gcategory` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecm_gcategory` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-21T08:05:05+08:00 ] 127.0.0.1 /myshop/admin.php/Goods/genecates.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecm_gcategory` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecm_gcategory` WHERE `parent_id` = 14  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-21T18:32:08+08:00 ] 127.0.0.1 /myshop/admin.php/Goods/genecates.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecm_gcategory` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecm_gcategory` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-21T18:32:08+08:00 ] 127.0.0.1 /myshop/admin.php/Goods/genecates.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecm_gcategory` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecm_gcategory` WHERE `parent_id` = 14  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

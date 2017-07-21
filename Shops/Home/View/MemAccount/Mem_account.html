@@ -1,0 +1,104 @@
+<include file="Public/Mem_header" />
+<div class="content">
+	  <div id="left">
+        <h2>
+            <strong title="用户中心"></strong>
+            <div class="adorn1"></div>
+            <div class="adorn2"></div>
+        </h2>
+                    <dl>
+            <dt>我的账户</dt>
+                    <dd>
+                            <a href="<{:U('MemAccount/Mem_account')}>" class="active"><span class="ico1">账户概览</span></a>
+                        </dd>
+                    <dd>
+                            <a href="<{:U('MemUserinfo/Mem_userinfo')}>" class="normal"><span class="ico2">个人资料</span></a>
+                        </dd>
+                </dl>
+                            <dl>
+            <dt>我是买家</dt>
+                    <dd>
+                            <a href="<{:U('MemOrder/Mem_order_list')}>" class="normal"><span class="ico5">我的订单</span></a>
+                        </dd>
+						<!--
+                    <dd>
+                            <a href="member_groupbuy.html" class="normal"><span class="ico21">我的团购</span></a>
+                        </dd> 
+                    <dd>
+                            <a href="member_question.html" class="normal"><span class="ico17">我的咨询</span></a>
+                        </dd> -->
+                    <dd>
+                            <a href="<{:U('Favorite/member_favorite')}>" class="normal"><span class="ico6">我的收藏</span></a>
+                        </dd>
+                    <dd>
+                            <a href="<{:U('MemAddress/mem_address')}>" class="normal"><span class="ico7">我的地址</span></a>
+                        </dd>
+                </dl>
+                                    
+        <div class="clear"></div> 
+                <div class="adorn_bottom"></div>
+    </div> 
+      <div id="right">
+        <div class="wrap_line margin1">
+            <div class="public">
+                <div class="information_index">
+                    <div class="photo">
+                        <p><img src="__ROOT__/<{$memArr['mimg']}>" width="120" height="120" alt="" /></p>
+                    </div>
+
+                    <div class="info">
+                        <h3 style="line-height:25px;" class="margin2">
+                            <span>欢迎您，<{$memArr['user_name']}></span><br />
+                            <em style="font-style:normal;font-size:12px;margin-right:5px;color:#666;">会员等级:<font color="red">&nbsp;&nbsp;普通会员</font></em>                            
+                            <a href="<{:U('MemUserinfo/Mem_userinfo')}>">编辑个人资料>></a>
+                        </h3>
+                        <table class="width6">
+                            <tr>
+                                <td>上次登录时间: <{$memArr['last_login']|date="Y-m-d H:i:s",###}></td>
+                                <td>
+                                                                </td>
+                            </tr>
+                            <tr>
+                                <td>上次登录 IP: <{$memArr['last_ip']}></td>
+                                <td>
+                                                                </td>
+                            </tr>    
+                        </table>
+						<p>您的积分为:9545&nbsp;&nbsp;</p>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <div class="wrap_bottom"></div>
+        </div>
+        <div class="wrap_line margin1">
+            <div class="public_index">
+                <div class="information_index">
+                    <h3 class="title">买家提醒</h3>
+                                        <div class="remind">
+                        <dl>
+                            <dt>订单提醒</dt>
+                            <dd><a href="index.php?app=buyer_order&type=pending">待付款订单(<em><{$mcount}></em>)</a></dd>
+                            <dd><a href="index.php?app=buyer_order&type=shipped">待确认的订单(<em><{$acount}></em>)</a></dd>
+                            <dd><a href="index.php?app=buyer_order&type=finished">待评价的订单(<em><{$bcount}></em>)</a></dd>
+                        </dl>
+                        <a href="<{:U('Home/MemOrder/Mem_order_list')}>" class="btn pos1" title="查看我的订单"><span class="pic1">查看我的订单</span></a>
+                    </div>
+                                    </div>
+
+            </div>
+            <div class="wrap_bottom"></div>
+        </div>
+
+        <div class="clear"></div>
+        <div class="adorn_right1"></div>
+        <div class="adorn_right2"></div>
+        <div class="adorn_right3"></div>
+        <div class="adorn_right4"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<include file="Public/Mem_footer" />
+</body>
+</html>

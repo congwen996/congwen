@@ -1,0 +1,157 @@
+<include file="Public/Mem_header" />
+<style>
+.borline td {padding:10px 0px;}
+.ware_list th {text-align:left;}
+</style>
+	<script type="text/javascript" src="__PUBLIC__/js/home/jquery-1.8.3.js"></script>
+   	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/home/webuploader.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/home/diyUpload.css">
+	<script type="text/javascript" src="__PUBLIC__/js/home/webuploader.html5only.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/home/diyUpload.js"></script>
+	<script charset="utf-8" type="text/javascript" src="__PUBLIC__/js/home/jquery.ui/jquery.ui.js" ></script>
+<script charset="utf-8" type="text/javascript" src="__PUBLIC__/js/home/jquery.ui/i18n/zh-CN.js" ></script>
+<script charset="utf-8" type="text/javascript" src="__PUBLIC__/js/home/jquery.plugins/jquery.validate.js" ></script>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/js/home/jquery.ui/themes/ui-lightness/jquery.ui.css"  />	
+<script type="text/javascript">
+
+$(function(){
+    $("#deimg").diyUpload({
+		 //处理文件上传
+		 url:"<{:U('MemUserinfo/upFile')}>",
+	 	 success:function(d){
+	 		$("#oldimg").attr("src","__ROOT__/"+d.imgsrc);
+	 		$("#mimg").val(d.imgsrc);
+	 	 },
+	 	 error:function(e){
+	 		console.info(e);
+	 	 }
+	})
+	 $('#birthday').datepicker({dateFormat: 'yy-mm-dd'});
+});
+
+</script>
+<div class="content">
+    <div id="left">
+        <h2>
+            <strong title="用户中心"></strong>
+            <div class="adorn1"></div>
+            <div class="adorn2"></div>
+        </h2>
+                    <dl>
+            <dt>我的账户</dt>
+                    <dd>
+                            <a href="<{:U('MemAccount/Mem_account')}>" class="normal"><span class="ico1">账户概览</span></a>
+                        </dd>
+                    <dd>
+                            <a href="<{:U('MemUserinfo/Mem_userinfo')}>" class="active"><span class="ico2">个人资料</span></a>
+                        </dd>
+                </dl>
+                            <dl>
+            <dt>我是买家</dt>
+                    <dd>
+                            <a href="<{:U('Home/MemOrder/Mem_order_list')}>" class="normal"><span class="ico5">我的订单</span></a>
+                        </dd>
+						<!-- 
+                    <dd>
+                            <a href="member_groupbuy.html" class="normal"><span class="ico21">我的团购</span></a>
+                        </dd>
+                    <dd>
+                            <a href="member_question.html" class="normal"><span class="ico17">我的咨询</span></a>
+                        </dd> -->
+                    <dd>
+                            <a href="<{:U('Home/Favorite/member_favorite')}>" class="normal"><span class="ico6">我的收藏</span></a>
+                        </dd>
+                    <dd>
+                            <a href="<{:U('Home/MemAddress/mem_address')}>" class="normal"><span class="ico7">我的地址</span></a>
+                        </dd>
+                </dl>
+        <div class="clear"></div> 
+                <div class="adorn_bottom"></div>
+    </div>    <div id="right">
+            <div class="submenu">
+        <ul class="tab">
+                                    <li class="active first"><h2><a href="javascript:;">基本信息</a></h2></li>
+                                </ul>
+</div>            <div class="wrap">
+                <div class="public">
+                <form action="<{:U('MemUserinfo/Mem_userinfo')}>" method="post" enctype="multipart/form-data" id="profile_form">
+                    <div class="information">
+                       <div class="photo width13">
+                            <p><img src="__ROOT__/<{$memArr['mimg']}>" width="120" height="120" alt="" ectype="avatar" id="oldimg" /></p>
+                             <div id="deimg"></div>
+                             <input type="hidden" id="mimg" name="mimg" >
+                        </div>
+                       	<div class="info individual">
+                            <table>
+                                <tr>
+                                    <th class="width4">用户名: </th>
+                                    <td><{$memArr['user_name']}><input type="hidden" name="user_id" value="<{$memArr['user_id']}>"></td>
+                                </tr>
+                                <tr>
+                                    <th>您的密码:</th>
+                                    <td><input type="password" class="text width_normal" name="old_pwd" value="" /></td>
+                                </tr> 
+                                <tr>
+                                    <th> 新密码:</th>
+                                    <td><input type="password" class="text width_normal" name="password" value="" /></td>
+                                </tr> 
+                                <tr>
+                                    <th>确认密码:</th>
+                                    <td><input type="password" class="text width_normal" name="new_pwd_2" value="" /></td>
+                                </tr>                                                                                                
+                                <tr>
+                                    <th>电子邮箱:</th>
+                                    <td><{$memArr['email']}></td>
+                                </tr>
+                                <tr>
+                                    <th>真实姓名:</th>
+                                    <td><input type="text" class="text width_normal" name="real_name" value="<{$memArr['real_name']}>" /></td>
+                                </tr>
+                                <tr>
+                                    <th>性别: </th>
+                                    <td class="label">
+                                        <label>
+                                           <input type="radio" name="gender" value="0" <eq name="memArr['gender']" value="0">checked</eq> /> 保密  </label>
+                                            <label>
+                                            <input type="radio" name="gender" value="1" <eq name="memArr['gender']" value="1">checked</eq> />男   </label>
+                                            <label>
+                                            <input type="radio" name="gender" value="2" <eq name="memArr['gender']" value="2">checked</eq> /> 女 </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>生日: </th>
+                                    <td>
+                                      <input type="text" class="text1 width2" name="birthday" id="birthday" value="<{$memArr['birthday']}>"/> 
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>QQ:</th>
+                                    <td> <input type="text" class="text width_normal" name="im_qq" value="<{$memArr['im_qq']}>" /></td>
+                                </tr>
+                                <tr>
+                                    <th>MSN:</th>
+                                    <td><input type="text"  class="text width_normal"name="im_msn" value="<{$memArr['im_msn']}>" /></td>
+                                </tr>
+                                                                <tr>
+                                    <th></th>
+                                    <td><input type="submit" class="btn" value="保存修改" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </form>
+                </div>
+        </div>
+        <div class="clear"></div>
+            <div class="adorn_right1"></div>
+            <div class="adorn_right2"></div>
+            <div class="adorn_right3"></div>
+            <div class="adorn_right4"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<include file="Public/Mem_footer" />
+</body>
+</html>

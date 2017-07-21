@@ -1,0 +1,143 @@
+<include file="Public:Mem_header"/>	
+  <script type="text/javascript">
+$(function(){
+    $('#add_time_from').datepicker({dateFormat: 'yy-mm-dd'});
+    $('#add_time_to').datepicker({dateFormat: 'yy-mm-dd'});
+});
+</script>
+  <style type="text/css">.float_right {float: right;}</style>
+  <div class="content">
+   <include file="Public:Mem_left"/> 
+  <div id="right">
+    <div class="submenu">
+      <ul class="tab">
+        <li class="active first">
+          <h2>
+            <a href="javascript:;">订单列表</a>
+          </h2>
+        </li>
+      </ul>
+    </div>
+    <div class="wrap">
+      <div class="public">
+        <div class="user_search">
+          <form method="get" action="__ACTION__">
+            <span>下单时间:</span>
+            <input type="text" class="text1 width2" name="add_time_from" id="add_time_from" value=""/>
+            &#8211;
+            <input type="text" class="text1 width2" name="add_time_to" id="add_time_to" value=""/>
+            <span>订单号:</span>
+            <input type="text" class="text1 width_normal" name="order_sn" value="">
+            <span>订单状态</span>
+            <select name="status">
+                        <option value="">所有订单</option>
+                        <option value="0">交易关闭</option>
+						<option value="11">等待买家付款</option>
+						<option value="20">买家已付款 待发货</option>
+						<option value="30">已发货</option>
+						<option value="40">交易已完成</option>
+            </select>
+            <input type="hidden" name="app" value="buyer_order" />
+            <input type="hidden" name="act" value="index" />
+            <input type="submit" class="btn" value="搜索" />
+          </form>
+        </div>
+        <foreach name="orderarr" item="v">
+        <div class="order_form">
+          <h2>
+            <p class="num">订单号: <{$v['order_sn']}></p>
+            <!-- <p class="name">
+              <span>
+                店铺名:
+                <a href="index.php?app=store&amp;id=2" target="_blank">超级店铺</a>
+              </span>
+              <a target="_blank" href="index.php?app=message&amp;act=send&amp;to_id=2" class="email"></a>
+            </p> -->
+            <p class="state">
+              订单状态:
+              <strong><switch name="v['status']">
+					<case value="0">交易取消</case>
+					<case value="11">等待买家付款</case>
+					<case value="20">买家已付款 待发货</case>
+					<case value="30">已发货</case>
+					<case value="40">交易已完成</case>
+				</switch></strong>
+            </p>
+          </h2>
+          <!--遍历每个订单中的商品  --> 
+          <volist name="array[$v['order_id']]" id="x">
+	          <div class="con">
+	            <p class="ware_pic">
+	              <a href="index.php?app=goods&amp;id=22" target="_blank">
+	                <img src="__PUBLIC__/images/home/<{$x['goods_image']}>" width="50" height="50"  />
+	              </a>
+	            </p>
+	            <p class="ware_text">
+	              <a href="index.php?app=goods&amp;id=22" target="_blank"><{$x['goods_name']}></a>
+	              <br />
+	              <span class="attr"></span>
+	            </p>
+	            <p class="price">
+	              价格:
+	              <span><{$x['price']}></span>
+	            </p>
+	            <p class="amount">
+	              数量:
+	              <span><{$x['quantity']}></span>
+	            </p>
+	          </div>
+          </volist>
+          <div class="foot">
+            <p class="time">下单时间: <{$v['add_time']|date='Y-m-d H:i:s',###}></p>
+            <div class="handle">
+              <div style="float:left;">
+                订单总价:
+                <b id="order258_order_amount"><{$v['goods_amount']}></b>
+              </div>
+
+              <a target="_blank" class="btn1" href="index.php?app=order_express&amp;order_id=258"  style="display:none">查看物流</a>
+
+              <a class="btn1" href="index.php?app=buyer_order&amp;act=evaluate&amp;order_id=258" target="_blank" id="order258_evaluate" style="display:none">我要评价</a>
+              <eq name="v['status']" value="11"><a href="index.php?app=cashier&amp;order_id=258" target="_blank" id="order258_action_pay" class="btn">付款</a></eq>
+              <input type="button" value="确认收货" class="btn1" ectype="dialog" dialog_id="buyer_order_confirm_order" dialog_width="400" dialog_title="确认收货" uri="index.php?app=buyer_order&amp;act=confirm_order&order_id=258&ajax"  id="order258_action_confirm" style="display:none" />
+              <eq name="v['status']" value="11">
+              <input type="button" value="取消订单" class="btn1" id="ordercancel<{$v['order_id']}>" onclick="cancelorder(<{$v['order_id']}>)"/>
+              </eq>
+              <a href='<{:U("Home/MemOrder/Mem_order_show/id/{$v['order_id']}/p/{$p}")}>' target="_blank" class="btn1">查看订单</a>
+            </div>
+          </div>        
+        </div>
+        </foreach>        
+            <div class="pagestr" style="text-align:center;">
+              <{$pagestr}>
+            </div>        
+        <div class="clear"></div>
+      </div>
+      <div class="wrap_bottom"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="adorn_right1"></div>
+    <div class="adorn_right2"></div>
+    <div class="adorn_right3"></div>
+    <div class="adorn_right4"></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<iframe id='iframe_post' name="iframe_post" src="about:blank" frameborder="0" width="0" height="0"></iframe>
+<include file="Public:Mem_footer"/>
+<script>
+   function cancelorder(id)
+   {
+	   if(confirm("确定取消订单吗？"))
+		   {
+		   $.get("<{:U('Home/MemOrder/Mem_order_cancel')}>",{'ids':id,'action':'setstatus'},
+				   function(d)
+				   {
+			           alert(d.msg);
+			           location.href="__ACTION__";
+				   },'json');
+		   }  
+   }
+</script>
+</body>
+</html>

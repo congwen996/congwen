@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>分类添加</title>
+    <link href="__PUBLIC__/css/admin/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin//bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/main-min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main">
+<form action="__ACTION__" method="post">
+	<table class="data-table2">
+		<tr>
+			<th>分类名称：</th>
+			<td><input type="text" name="cate_name"></td>
+		</tr>
+		<tr>
+			<th>上级分类：</th>
+			<td>
+			   <select name="parent_id">
+			       <option value="">-请选择-</option>
+			       <volist name="parentarr" id="v">			              
+			               <option value="<{$v['cate_id']}>">
+			                    <{$v['cate_name']}>
+			               </option>
+			               <volist name="childarr[$v['cate_id']]" id="x">
+			                   <option value="<{$x['cate_id']}>">
+			                    &nbsp;&nbsp;--|<{$x['cate_name']}>
+			                   </option>
+				                   <volist name="sonarr[$x['cate_id']]" id="z">
+				                   <option value="<{$z['cate_id']}>">
+				                    &nbsp;&nbsp;&nbsp;--|<{$z['cate_name']}>
+				                   </option>			                   
+				               </volist> 			                   
+			               </volist>  		         
+			       </volist>
+			   </select>
+			</td>
+		</tr>		
+		<tr>
+			<th>排序：</th>
+			<td><input type="text" name="sort_order"></td>
+		</tr>
+		<tr>
+			<th>有效：</th>
+			<td>
+			    <input type="radio" name="if_show" value="1" >是
+			    <input type="radio" name="if_show" value="0" >否
+			</td>
+		</tr>
+	</table>
+	<input type="submit" value="确定" class="button button-primary">
+	<input type="reset" value="取消" class="button">
+</form>
+</div>
+</body>
+</html>

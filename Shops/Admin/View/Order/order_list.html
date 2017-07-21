@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单列表</title>
+    <link href="__PUBLIC__/css/admin/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/admin/main-min.css" rel="stylesheet" type="text/css" />
+	<style>
+	.pages a,.pages span {
+	    display:inline-block;
+	    padding:2px 5px;
+	    margin:0 1px;
+	    border:1px solid #f0f0f0;
+	    -webkit-border-radius:3px;
+	    -moz-border-radius:3px;
+	    border-radius:3px;
+	}
+	.pages a,.pages li {
+	    display:inline-block;
+	    list-style: none;
+	    text-decoration:none; color:#58A0D3;
+	}
+	.pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+	    margin:0;
+	}
+	.pages a:hover{
+	    border-color:#50A8E6;
+	}
+	.pages span.current{
+	    background:#50A8E6;
+	    color:#FFF;
+	    font-weight:700;
+	    border-color:#50A8E6;
+	}
+	</style>    
+</head>
+<body style="overflow: auto;padding-bottom:20px;">
+<div class="main">
+	<table class="data-table txt-center">
+		<tr>
+			<th>订单号</th>
+			<th>下单时间</th>
+			<th>买家</th>
+			<th>订单金额</th>
+			<th>支付方式</th>
+			<th>订单状态</th>
+			<th>操作</th>
+		</tr>
+		<foreach name="newArr" item="v">
+		<tr>
+			<td><{$v['order_sn']}></td>
+			<td><{$v['add_time']}></td>
+			<td><{$v['buyer_name']}></td>
+			<td><{$v['order_amount']}></td>
+			<td><{$v['payment_name']}></td>
+			<td>
+				<switch name="v['status']">
+					<case value="0">交易关闭</case>
+					<case value="11">等待买家付款</case>
+					<case value="20">买家已付款 待发货</case>
+					<case value="30">已发货</case>
+					<case value="40">交易已完成</case>
+				</switch>
+			</td>
+			<td>
+				<a href="__CONTROLLER__/order_show/id/<{$v['order_id']}>" class="button button-small">查看</a>
+				<neq name="v['status']" value="40">
+				  <a href="__CONTROLLER__/order_optation/id/<{$v['order_id']}>" class="button button-small">操作</a>
+				</neq>
+			</td>
+		</tr>
+		</foreach>
+		<tr>
+		  <td colspan="7"><div class="pages"><{$fenye}></div></td>
+		</tr>
+	</table>
+</div>
+<div style="height:100px;"></div>
+</body>
+</html>

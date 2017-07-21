@@ -1,0 +1,106 @@
+<include file="Public:Mem_header"/>
+  <div class="content">
+    <div class="particular">
+      <div class="particular_wrap">
+        <h2>订单详情</h2>
+        <div class="box">
+          <div class="state">
+            订单状态&nbsp;:&nbsp;
+            <strong>
+               <switch name="orderarr[0]['status']">
+						<case value="0">交易关闭</case>
+						<case value="11">等待买家付款</case>
+						<case value="20">买家已付款 待发货</case>
+						<case value="30">已发货</case>
+						<case value="40">交易已完成</case>
+			  </switch>
+            </strong>
+          </div>
+          <div class="num">订单号&nbsp;:&nbsp;<{$orderarr[0]['order_sn']}></div>
+          <div class="time">下单时间&nbsp;:&nbsp;<{$orderarr[0]['add_time']|date='Y-m-d H:i:s',###}></div>
+
+        </div>
+        <h3>订单信息</h3>
+      <!--   <dl class="info">
+          <dt>卖家信息</dt>
+          <dd>店铺名&nbsp;:&nbsp;超级店铺</dd>
+          <dd>电话号码&nbsp;:&nbsp;88888888</dd>
+          <dd>QQ&nbsp;:&nbsp;361818525</dd>
+          <dd>旺旺&nbsp;:&nbsp;fyhyifei</dd>
+          <dd>
+            所在地区&nbsp;:&nbsp;中国 北京  北京  东城区
+          </dd>
+          <dd>手机号码&nbsp;:&nbsp;-</dd>
+          <dd>MSN&nbsp;:&nbsp;-</dd>
+          <dd>详细地址&nbsp;:&nbsp;-</dd>
+        </dl> -->
+        <div class="ware_line">
+          <div class="ware">
+            <div class="ware_list">
+              <div class="ware_pic">
+                <img src="__PUBLIC__/<{$ordergoodsarr[0]['goods_image']}>" width="50" height="50"  />
+              </div>
+              <div class="ware_text">
+                <div class="ware_text1">
+                  <a href="index.php?app=goods&amp;id=22"><{$ordergoodsarr[0]['goods_name']}></a>
+                  <br />
+                  <span></span>
+                </div>
+                <div class="ware_text2">
+                  <span>
+                    数量&nbsp;:&nbsp;
+                    <strong><{$ordergoodsarr[0]['quantity']}></strong>
+                  </span>
+                  <span>
+                    价格&nbsp;:&nbsp;
+                    <strong><{$orderarr[0]['goods_amount']}></strong>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="transportation">
+              运费&nbsp;:&nbsp;
+              <span>
+                <{$orderarr[0]['shipping_fee']}>
+                <eq name="orderarr[0]['shipping_fee']" value="0"><strong><{$orderarr[0]['shipping_name']}></strong></eq>
+              </span>
+              优惠打折&nbsp;:&nbsp;
+              <span><{$orderarr[0]['discount']}></span>
+              总价&nbsp;:&nbsp;
+              <b><{$orderarr[0]['order_amount']}></b>
+            </div>
+            <ul class="order_detail_list">
+              <li>
+                支付方式&nbsp;:&nbsp;<{$orderarr[0]['payment_name']}>&nbsp;&nbsp;
+                <eq name="orderarr[0]['status']" value="11">(&nbsp;
+                <a href="index.php?app=cashier&amp;order_id=258">付款</a>
+                &nbsp;)</eq>
+              </li>
+              <li>下单时间&nbsp;:&nbsp;<{$orderarr[0]['add_time']|date='Y-d-m H:i:s',###}></li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>物流信息</h3>
+        <div class="goods">
+          收货地址&nbsp;:&nbsp;<{$orderarr[0]['address']}>
+          <br />
+          配送方式&nbsp;:&nbsp;<{$orderarr[0]['shipping_name']}>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='<{:U("Home/MemOrder/Mem_order_list")}>'>返回</a>
+        </div>
+
+        <div class="particular_bottom"></div>
+      </div>
+
+      <div class="clear"></div>
+      <div class="adorn_right1"></div>
+      <div class="adorn_right2"></div>
+      <div class="adorn_right3"></div>
+      <div class="adorn_right4"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <include file="Public:Mem_footer"/>
+</body>
+</html>
